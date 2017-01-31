@@ -27,7 +27,7 @@ public class Bubble {
                     numSwaps++;
                 }
             }
-            totalSwaps = numSwaps;
+            totalSwaps = totalSwaps + numSwaps;
             if (numSwaps==0) break;
         }
         System.out.println(totalSwaps);
