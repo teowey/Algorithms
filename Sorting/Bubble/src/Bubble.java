@@ -30,9 +30,9 @@ public class Bubble {
             totalSwaps = totalSwaps + numSwaps;
             if (numSwaps==0) break;
         }
-        System.out.println(totalSwaps);
-        System.out.println(a[0]);
-        System.out.println(a[a.length-1]);
+        System.out.println("Array is sorted " + totalSwaps + " swaps.");
+        System.out.println("First Element: " + a[0]);
+        System.out.println("Last Element: " + a[a.length-1]);
     }
 
     public static void main(String[] args) {
